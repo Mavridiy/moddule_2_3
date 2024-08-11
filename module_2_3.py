@@ -7,3 +7,5 @@ while x < len(my_list):
     if my_list[x] > 0:
         print(my_list[x])
         x += 1
+    else:
+        break
